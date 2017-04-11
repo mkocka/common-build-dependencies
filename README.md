@@ -61,28 +61,28 @@ description provided which explains the deviation, example:
 Put requests for packages you require in the `common-build-dependencies` module here via pull request.
 
  * `mariadb`
-   * build dependencies:
-     * `compat-openssl10 libaio libedit multilib-rpm-config pcre perl-generators selinux-policy`
-   * runtime dependencies:
-     * `compat-openssl10 mariadb perl`
+    * build dependencies:
+       * `compat-openssl10 libaio libedit multilib-rpm-config pcre perl-generators selinux-policy`
+    * runtime dependencies:
+       * `compat-openssl10 mariadb perl`
   
  * `mongodb`
-   * build dependencies:
-     * `asio boost gcc gperftools icu libstemmer python-pymongo scons snappy valgrind yaml-cpp yaml-cpp03`
-   * runtime dependencies:
-     * `boost yaml-cpp`
+    * build dependencies:
+       * `asio boost gcc gperftools icu libstemmer python-pymongo scons snappy valgrind yaml-cpp yaml-cpp03`
+    * runtime dependencies:
+       * `boost yaml-cpp`
      
  * `python2`
-   * build dependencies:
-      * `autoconf compat-openssl10 expat findutils libX11 mesa tcl tix tk valgrind`
-   * runtime dependencies:
-      * `coreutils glibc`
+	  * build dependencies:
+        * `autoconf compat-openssl10 expat findutils libX11 mesa tcl tix tk valgrind`
+    * runtime dependencies:
+        * `coreutils glibc`
    
  * `nodejs`
-   * build dependencies:
-     * `compat-openssl10 gcc icu libuv`
-   * runtime dependencies:
-      * `libuv`
+	  * build dependencies:
+        * `compat-openssl10 gcc icu libuv`
+    * runtime dependencies:
+	     * `libuv`
    
 ### Prioritized list
 
