@@ -87,9 +87,14 @@ Put requests for packages you require in the `common-build-dependencies` module 
     * build dependecies:
       * `aspell curl enchant exim firebird freetds gd httpd icu libedit libmcrypt libtool libxml2 libxslt net-snmp nginx opensmtpd pcre postfix postgresql recode sendmail sqlite tidy tokyocabinet unixODBC uw-imap`
     * runtime dependecies:
-       * php 
-      
-     
+       * php
+
+ * `ruby`
+   * build dependecies:
+     * `autoconf checksec cmake libyaml multilib-rpm-config systemtap`
+   * runtime dependecies:
+     * `ruby rubypick`
+    
 ### Prioritized list
 
 This list is sorted by priority.
