@@ -77,7 +77,13 @@ Put requests for packages you require in the `common-build-dependencies` module 
         * `autoconf compat-openssl10 expat findutils libX11 mesa tcl tix tk valgrind`
     * runtime dependencies:
         * `coreutils glibc`
-   
+
+ * `python3`
+   * build dependencies:
+     * `autoconf bluez expat libdb4 libX11 mesa systemtap tcl tix tk valgrind`
+   * runtime dependecies: 
+     * `python3`
+
  * `nodejs`
 	  * build dependencies:
         * `compat-openssl10 gcc icu libuv`
@@ -94,6 +100,12 @@ Put requests for packages you require in the `common-build-dependencies` module 
      * `autoconf checksec cmake libyaml multilib-rpm-config systemtap`
    * runtime dependecies:
      * `ruby rubypick`
+    
+ * `bind`
+   * build dependecies:
+     * `autoconf docbook-style-xsl GeoIP mariadb postgresql python3`
+   * runtime dependecies:
+     * `bind`
     
 ### Prioritized list
 
